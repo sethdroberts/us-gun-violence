@@ -20,5 +20,8 @@
     "@deck.gl/core": "^8.2.8",
     "@deck.gl/google-maps": "^8.2.8",
     "@deck.gl/layers": "^8.2.8"
+  },
+  "engines": {
+    "node": "14.4.0"
   }
 }
