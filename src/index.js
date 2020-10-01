@@ -1,3 +1,5 @@
+var PORT = process.env.PORT || 5000;
+
 import { GoogleMapsOverlay } from '@deck.gl/google-maps';
 import { HexagonLayer } from '@deck.gl/aggregation-layers';
 import { ScatterplotLayer } from '@deck.gl/layers';
