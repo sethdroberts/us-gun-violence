@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack-dev-server --content-base ./public --output-path ./public --hot"
+    "dev": "webpack-dev-server --content-base ./public --output-path ./public --hot",
+    "start": "npm run dev"
   },
   "keywords": [],
   "author": "",
